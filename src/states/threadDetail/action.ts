@@ -3,9 +3,9 @@ import type { ThreadDetail, Comment } from '../../utils/api';
 import { showLoading, hideLoading } from 'react-redux-loading-bar';
 
 export const ActionType = {
-  RECEIVE_THREAD_DETAIL: 'RECEIVE_THREAD_DETAIL',
-  CLEAR_THREAD_DETAIL: 'CLEAR_THREAD_DETAIL',
-  ADD_COMMENT: 'ADD_COMMENT',
+  RECEIVE_THREAD_DETAIL: 'threadDetail/receive',
+  CLEAR_THREAD_DETAIL: 'threadDetail/clear',
+  ADD_COMMENT: 'comment/add',
 } as const;
 
 export interface ReceiveThreadDetailAction {

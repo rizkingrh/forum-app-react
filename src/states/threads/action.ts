@@ -3,8 +3,8 @@ import type { Thread } from '../../utils/api';
 import { showLoading, hideLoading } from 'react-redux-loading-bar';
 
 export const ActionType = {
-  RECEIVE_THREADS: 'RECEIVE_THREADS',
-  ADD_THREAD: 'ADD_THREAD',
+  RECEIVE_THREADS: 'threads/receive',
+  ADD_THREAD: 'thread/create',
 } as const;
 
 export interface ReceiveThreadsAction {

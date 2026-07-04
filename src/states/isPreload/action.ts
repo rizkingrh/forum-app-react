@@ -3,7 +3,7 @@ import { setAuthUserActionCreator } from '../authUser/action';
 import { showLoading, hideLoading } from 'react-redux-loading-bar';
 
 export const ActionType = {
-  SET_IS_PRELOAD: 'SET_IS_PRELOAD',
+  SET_IS_PRELOAD: 'preLoad/set',
 } as const;
 
 export interface SetIsPreloadAction {

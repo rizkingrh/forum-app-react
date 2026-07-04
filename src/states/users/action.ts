@@ -3,7 +3,7 @@ import type { User } from '../../utils/api';
 import { showLoading, hideLoading } from 'react-redux-loading-bar';
 
 export const ActionType = {
-  RECEIVE_USERS: 'RECEIVE_USERS',
+  RECEIVE_USERS: 'user/receive',
 } as const;
 
 export interface ReceiveUsersAction {

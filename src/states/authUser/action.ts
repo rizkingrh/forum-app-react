@@ -3,8 +3,8 @@ import type { User } from '../../utils/api';
 import { showLoading, hideLoading } from 'react-redux-loading-bar';
 
 export const ActionType = {
-  SET_AUTH_USER: 'SET_AUTH_USER',
-  UNSET_AUTH_USER: 'UNSET_AUTH_USER',
+  SET_AUTH_USER: 'authUser/set',
+  UNSET_AUTH_USER: 'authUser/unset',
 } as const;
 
 export interface SetAuthUserAction {
