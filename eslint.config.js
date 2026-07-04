@@ -2,7 +2,7 @@ import daStyle from 'eslint-config-dicodingacademy';
 import reactPlugin from 'eslint-plugin-react';
 import typescriptPlugin from '@typescript-eslint/eslint-plugin';
 import typescriptParser from '@typescript-eslint/parser';
-import cypressPlugin from 'eslint-plugin-cypress/flat';
+import cypressPlugin from 'eslint-plugin-cypress';
 
 export default [
   {
@@ -28,6 +28,7 @@ export default [
     rules: {
       'react/react-in-jsx-scope': 'off', // React 17+ doesn't require importing React
       'no-console': 'warn',
+      'linebreak-style': 'off',
     },
   },
   {
