@@ -58,7 +58,7 @@ describe('Login Page', () => {
   it('should redirect to the home page after a successful login', () => {
     // Arrange
     const validEmail = 'rizki.adenugraha@gmail.com';
-    const validPassword = 'testerror';
+    const validPassword = 'rzkngrh';
 
     // Action
     cy.get('input[type="email"]').type(validEmail);
