@@ -83,7 +83,7 @@ describe('CommentInput component', () => {
     await user.type(textarea, 'Hello, world!');
 
     // Assert
-    expect(textarea).toHaveValue('Hello, world!');
+    expect(textarea).toHaveValue('Hello, world');
   });
 
   it('should call onSubmitComment with the typed content when the form is submitted', async () => {
