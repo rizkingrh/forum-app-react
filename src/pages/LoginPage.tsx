@@ -38,7 +38,7 @@ export default function LoginPage() {
           <div className="p-3 rounded-2xl bg-gradient-to-tr from-brand-accent to-brand-cyan text-white mb-4">
             <LogIn className="w-6 h-6" />
           </div>
-          <h1 className="text-2xl font-bold text-white tracking-tight">Welcome</h1>
+          <h1 className="text-2xl font-bold text-white tracking-tight">Welcome Back</h1>
           <p className="text-sm text-slate-400 mt-1">Sign in to join the dev discussion</p>
         </div>
 
