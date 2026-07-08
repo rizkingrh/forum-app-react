@@ -16,7 +16,7 @@ export default function CommentInput({ onSubmitComment }: CommentInputProps) {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="relative">
+    <form onSubmit={handle} className="relative">
       <textarea
         value={content}
         onChange={(e) => setContent(e.target.value)}
